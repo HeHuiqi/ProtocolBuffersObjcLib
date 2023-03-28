@@ -20,7 +20,7 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/HeHuiqi/ProtocolBuffersObjcLib.git",:tag => spec.version  }
 
-  spec.source_files  = "include/*.h"
+  spec.source_files  = "include","include/*.h"
   #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "include/*.h"
