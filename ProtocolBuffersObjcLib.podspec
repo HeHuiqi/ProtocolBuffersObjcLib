@@ -11,14 +11,14 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://github.com/HeHuiqi/ProtocolBuffersObjcLib.git"
  
 
-  spec.license      = "LICENSE"
+  spec.license      = "https://github.com/HeHuiqi/ProtocolBuffersObjcLib/blob/main/LICENSE"
 
   spec.author             = { "HeHuiqi" => "1710308677@qq.com" }
 
 
   spec.ios.deployment_target = "16.0"
 
-  spec.source       = { :git => "https://github.com/HeHuiqi/ProtocolBuffersObjcLib.git" }
+  spec.source       = { :git => "https://github.com/HeHuiqi/ProtocolBuffersObjcLib.git",:tag => spec.version  }
 
   spec.source_files  = "include/*.h"
   #spec.exclude_files = "Classes/Exclude"
